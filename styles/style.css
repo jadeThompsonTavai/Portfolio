@@ -1,4 +1,30 @@
-html {
-    background-color: blanchedalmond;
-    
+* {
+    box-sizing: border-box;
+}
+.column.contact {
+    width:25%;
+    align-content: right;
+}
+.column {
+    float: left;
+    width: 75%;
+    padding: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header {
+    padding: 15px;
+    text-align: start;
+
+}
+.contact {
+    text-align: right;
+}
+h3 {
+    font-size: 20px;
+    color: #84C318;
 }
