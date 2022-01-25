@@ -1,15 +1,25 @@
+/*COLOUR PALLETE
+#333 - dark grey, almost black
+#F4D8CD - Champagne pink
+#495F41 - Hunter Green (olive)
+#84C318 - Yellow Green
+#EE4B6A - Paradise Pink (more saturated)
+
+/*GLOBAL STYLES
+----------------------------------*/
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 div.flex-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  justify-content: center;
 }
 ul {
   list-style-type: none;
+  text-align: center;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -35,6 +45,8 @@ ul {
     background-color: #495F41;
     color: F4D8CD;
   }
+  /*Header
+  --------------------------*/
 .column.contact {
     width:25%;
     align-content: right;
@@ -62,3 +74,15 @@ h3 {
     font-size: 20px;
     color: #84C318;
 }
+
+/*CV
+----------------------------------*/
+
+/*ABOUT
+----------------------------------*/
+
+/*PROJECTS
+----------------------------------*/
+
+/*INDEX
+----------------------------------*/
