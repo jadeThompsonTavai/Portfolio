@@ -63,38 +63,42 @@ section {
 }
 
 .sec1 {
-  background-color: var(--color-grey-1);
+  background-color: darkmagenta;
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
 }
 
 .sec2 {
-  background-color: var(--color-grey-2);
+  background-color: darkgoldenrod;
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
 }
 
 .sec3 {
-  background-color: var(--color-grey-3);
+  background-color: blue;
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
 }
 
 .sec4 {
-  background-color: var(--color-grey-4);
+  background-color: violet;
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
 }
 
 .sec5 {
-  background-color: var(--color-grey-5);
+  background-color: aquamarine;
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
+}
+
+.active {
+  display: block;
 }
 
 .controls {
