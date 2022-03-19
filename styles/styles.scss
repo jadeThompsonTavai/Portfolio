@@ -94,8 +94,8 @@ section {
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
-    .active-btn {
-        background-color: var(--color-secondary) !important;
+    .activeBtn {
+        background-color: var(--color-secondary) !important ;
         transition: var(--transition);
         .i{
             color: var(--color-white) !important;

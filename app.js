@@ -3,15 +3,14 @@ const sectBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelectorAll('.main-content');
 
-function PageTransition() {
-    //Button click active class
+function PageTransitions() {
     for(let i = 0; i < sectBtn.length; i++){
-        sectBtn[i].addEventListener('click', () =>{
-            let currentBtn = document.querySelectorAll('.active-btn');
-            currentBtn[0].classList = currentBtn[0].className.replace('.active-btn', '');
-            this.className += 'active-btn';
+        sectBtn[i].addEventListener('click', function(){
+            let currentBtn = document.querySelectorAll('.activeBtn');
+            currentBtn[0].className = currentBtn[0].className.replace('activeBtn', '');
+            this.className += ' activeBtn';
         })
     }
 }
 
-PageTransition();
+PageTransitions();

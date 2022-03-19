@@ -114,13 +114,13 @@ section {
           transform: translateY(-50%);
 }
 
-.controls .active-btn {
+.controls .activeBtn {
   background-color: var(--color-secondary) !important;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
-.controls .active-btn .i {
+.controls .activeBtn .i {
   color: var(--color-white) !important;
 }
 
